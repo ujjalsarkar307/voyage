@@ -1,0 +1,730 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+}
+
+ul,ol,li{
+    list-style: none;
+    text-decoration: none;
+}
+
+a,a:focus{
+    text-decoration: none;
+}
+
+h1,h2,h3,h4,h5,h6,p{
+    margin: 0;
+    padding: 0;
+}
+
+/* --=============common css end================-- */
+
+
+/* --==============title css start===================-- */
+
+.title{
+    text-align: center;
+}
+
+.title h3{
+    font-family: 'Roboto', sans-serif; 
+    font-weight: 700;
+    font-size: 26px;
+    color: #2c3e50;
+    padding-bottom: 10px;
+    text-transform:uppercase ;
+}
+ .title h5{
+    font-family: 'Roboto', sans-serif; 
+    font-weight: 400;
+    font-size: 15px;
+    color: #2c3e50;
+    margin-bottom: 40px;
+}
+
+
+#holiday_type  .holi h3{
+    color: #fff;
+}
+
+#holiday_type  .holi h5{
+    color: #fff;
+    padding-bottom: 30px;
+}
+
+
+/* --==============title css end===================-- */
+
+
+
+
+/* --======================================
+            top-header start
+=======================================----*/
+
+
+#header_top{
+    background: #2c3e50;
+    padding: 10px 0;
+}
+
+#header_top .d_flex{
+    display: flex;
+    justify-content: space-between;
+}
+
+#header_top .left_part{
+    display: flex;
+}
+
+#header_top .left_part i{
+    padding-right: 5px;
+    color: #fff;
+}
+
+#header_top .left_part a{
+    text-decoration: none;
+}
+
+#header_top .left_part p{
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 15px;
+    margin-right: 40px;
+    text-transform: capitalize;
+    position: relative;
+}
+
+#header_top .left_part p::after{
+    position: absolute;
+    top: -9px;
+    right: -20px;
+    background: #000;
+    width: 1px;
+    height: 40px;
+    content: "";
+}
+
+#header_top .left_part p:last-child:after{
+    width: 0;
+}
+
+#header_top  .right_part i{
+    margin-left: 30px;
+    color: #fff;
+    font-size: 20px;
+    position: relative;
+}
+
+#header_top  .right_part i:after{
+    content: "";
+    position: absolute;
+    top: -9px;
+    left: -20px;
+    width: 1px;
+    height: 40px;
+    background: #000;
+}
+
+/* --======================================
+            top-header end
+=======================================----*/
+
+
+/* --======================================
+            navbar css strat
+=======================================----*/
+
+nav{
+    background: #fff;
+}
+
+.main_menu .nav-item{
+    margin-top: 30px;
+}
+
+.main_menu ul li{
+    display: inline-block;
+    margin-right: 40px;
+}
+
+.main_menu ul li a{
+    display: inline-block;
+    color: #000 !important;
+    font-family: 'Roboto', sans-serif; 
+    font-weight: 400;
+    font-size: 15px;
+    text-transform: uppercase;
+}
+
+.main_menu ul li .active{
+    color: #1dd2af !important;
+}
+
+.main_menu ul li a:hover{
+    color: #1dd2af !important;
+}
+
+
+.main_menu ul li i{
+    width: 40px;
+    height: 40px;
+    border: 2px solid #000;
+    border-radius: 50%;
+    line-height: 40px;
+    text-align: center;
+}
+
+/* --======================================
+            navbar css end
+=======================================----*/
+
+/* --======================================
+            banner-part css start
+=======================================----*/
+
+#banner_part{
+    text-align: center;
+}
+
+#banner_part .banner1{
+    background: url(../images/voyege_banner.png) no-repeat center;
+    background-size: cover;
+}
+#banner_part .banner2{
+    background: url(../images/travel-banner.jpg) no-repeat center;
+    background-size: cover;
+}
+#banner_part .banner3{
+    background: url(../images/voyege_banner.png) no-repeat center;
+    background-size: cover;
+}
+
+#banner_part .overlay{
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.4);
+    padding-top: 220px;
+    padding-bottom: 200px;
+}
+
+#banner_part .overlay h1{
+    font-family: 'Roboto', sans-serif; 
+    font-weight: 700;
+    font-size: 50px;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+#banner_part .overlay h3{
+    font-family: 'Roboto', sans-serif; 
+    font-weight: 400;
+    font-size: 25px;
+    color: #fff;
+    text-transform: capitalize;
+    padding-top: 25px;
+}
+
+#banner_part .overlay .button{
+    padding-top: 50px;
+}
+
+#banner_part .overlay .button a{
+    display: inline-block;
+    padding: 20px 15px;
+    color: #fff;
+    background: transparent;
+    border: 1px solid #fff;
+    text-transform: uppercase;
+    margin-right: 30px;
+    font-family: 'Roboto', sans-serif; 
+    font-weight: 400;
+    font-size: 15px;
+    transition: .4s;
+}
+
+#banner_part .overlay .button a:hover{
+    color: #fff ;
+    background: #1dd2af;
+    border: 1px solid #1dd2af;
+}
+
+#banner_part .overlay .button .active_button{
+    color: #fff ;
+    background: #1dd2af;
+    border: 1px solid #1dd2af;
+}
+
+#banner_part .left{
+    width: 50px;
+    height: 60px;
+    background: #60757f;
+    line-height: 60px;
+    text-align: center;
+    font-size: 20px;
+    color: #87969d;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+    z-index: 222;
+    transition: .4s;
+}
+
+#banner_part .left:hover{
+    background: #1dd2af;
+    color: #fff;
+}
+
+#banner_part .right{
+    width: 50px;
+    height: 60px;
+    background: #60757f;
+    line-height: 60px;
+    text-align: center;
+    font-size: 20px;
+    color: #87969d;
+    position: absolute;
+    top: 50%;
+    right: 0;
+    transform: translateY(-50%);
+    transition: .4s;
+}
+
+#banner_part .right:hover{
+    background: #1dd2af;
+    color: #fff;
+}
+
+/* --======================================
+            banner-part css end
+=======================================----*/
+
+
+/* --======================================
+            holiday-part css start
+=======================================----*/
+
+#holiday_part{
+    background: #2c3e50;
+    padding: 30px 0;
+    margin-bottom: 60px;
+}
+
+#holiday_part .holiday{
+    display: flex;
+    justify-content: space-between;
+}
+
+#holiday_part .holiday .find_holiday h5{
+    font-family: 'Roboto', sans-serif; 
+    font-weight: 400;
+    font-size: 20px;
+    color: #516272;
+}
+
+#holiday_part .holiday .find_holiday{
+    position: relative;
+}
+
+#holiday_part .holiday .find_holiday:after{
+    position: absolute;
+    top: -31px;
+    right: -30px;
+    width: 2px;
+    height: 200%;
+    background: #516272;
+    content: "";
+}
+
+#holiday_part .holiday .find_holiday h3{
+    font-family: 'Roboto', sans-serif; 
+    font-weight: 700;
+    font-size: 30px;
+    color: #fff;
+}
+
+#holiday_part .holiday  span{
+    font-family: 'Roboto', sans-serif; 
+    font-weight: 300;
+    font-size: 22px;
+    color: #516272;
+    padding-right: 20px;
+    text-transform: capitalize;
+}
+
+
+#holiday_part .holiday .icon{
+    padding-left: 20px;
+    color: #87969d;
+    position: absolute;
+    padding: 15px 0px 20px 264px;
+    text-align: right;
+    
+}
+
+#holiday_part .holiday .destination{
+    font-family: 'Roboto', sans-serif; 
+    font-weight: 400;
+    font-size: 20px;
+    text-transform: capitalize;
+    padding-left: 20px;
+    color: #516272;
+    width: 300px;
+    height: 45px;
+}
+
+#holiday_part .holiday .search_button a{
+    display: inline-block;
+    color: #fff;
+    padding: 11px 15px;
+    background: #1dd2af;
+    font-family: 'Roboto', sans-serif; 
+    font-weight: 400;
+    font-size: 15px;
+}
+/* --======================================
+            holiday-part css end
+=======================================----*/
+
+
+/* --======================================
+            offers-part css start
+=======================================----*/
+
+
+#offers_Part {
+    margin-top: 100px;
+    margin-bottom: 60px;
+}
+
+#offers_Part .slider {
+    position: relative;
+    margin: 20px;
+    transition: .4s;
+}
+
+#offers_Part .slider:hover{
+    /* margin: 40px; */
+   
+} 
+
+#offers_Part .slider img{
+    width: 100%;
+    transition: .4s;
+}
+
+#offers_Part .slider:hover img{
+    transform: scale(1.1);
+    overflow: hidden;
+    box-sizing: border-box;
+} 
+
+
+#offers_Part .slider .content{
+    display: flex;
+    justify-items: flex-end;
+    background: #eeeeee;
+    padding: 20px;
+    transition: .4s;
+}
+
+#offers_Part .slider:hover .content{
+    color: #fff;
+    background: #2c3e50;
+    transform: scale(1.1);
+}
+
+#offers_Part .slider .content .details h4{
+    font-family: 'Roboto', sans-serif; 
+    font-weight: 400;
+    font-size: 15px;
+    color:#2c3e50;
+    transition: .4s;
+}
+
+#offers_Part .slider:hover .content .details h4{
+    color: #fff;
+}
+
+#offers_Part .slider .content .details h6{
+    font-family: 'Roboto', sans-serif; 
+    font-weight: 400;
+    font-size: 13px;
+    color:#2c3e50;
+    padding-top: 10px;
+    transition: .4s;
+}
+
+#offers_Part .slider:hover .content .details h6{
+    color: #fff;
+}
+
+#offers_Part .slider .content  .icon i{
+    margin-left: 30px;
+}
+
+/* --======================================
+            offers-part css end
+=======================================----*/
+
+/* --======================================
+            holiday_type -part css start
+=======================================----*/
+
+
+#holiday_type{
+    background: url(../images/holiday_type_bg.png)no-repeat center;
+    background-size: cover;
+    padding: 100px 0;
+}
+
+#holiday_type .item{
+    text-align: center;
+}
+
+#holiday_type .item img{
+    width: 120px;
+    height: 120px;
+    padding: 20px;
+    border-radius: 50%;
+    border: 2px solid #fff;
+    transition: .4s;
+}
+
+#holiday_type .item:hover img{
+    border: 2px solid #1dd2af;
+    color: #1dd2af;
+}
+
+
+#holiday_type .item h3{
+    font-family: 'Roboto', sans-serif; 
+    font-weight: 400;
+    font-size: 20px;
+    color: #fff;
+    text-transform: capitalize;
+    padding-top: 20px;
+    transition: .4s;
+}
+
+#holiday_type .item:hover h3{
+    color: #1dd2af;
+}
+
+
+/* --======================================
+            holiday_type -part css end
+=======================================----*/
+
+
+
+/* --======================================
+            client-part css start
+=======================================----*/
+
+#client_part{
+    margin-top: 100px;
+    margin-bottom: 60px;
+}
+
+#client_part .review_slider .item{
+    padding: 10px;
+    border: 1px solid #545555;
+    margin: 0 20px;
+    border-top: 2px solid #1dd2af;
+}
+
+#client_part .review_slider .item p{
+    font-family: 'Roboto', sans-serif; 
+    font-weight: 400;
+    font-size: 13px;
+    color: #2c3e50;
+    line-height: 22px;
+    text-transform: capitalize;
+    padding-bottom: 20px;
+}
+
+#client_part .review_slider .item h4{
+    font-family: 'Roboto', sans-serif; 
+    font-weight: 400;
+    font-size: 20px;
+    color: #1dd2af;
+    text-transform: capitalize;
+}
+
+#client_part .review_slider .item h6{
+    font-family: 'Roboto', sans-serif; 
+    font-weight: 400;
+    font-size: 13px;
+    color: #87969d;
+    padding-bottom: 10px;
+}
+
+/* --======================================
+            client-part css end
+=======================================----*/
+
+
+/* --======================================
+            footer-part css start
+=======================================----*/
+
+#footer_part{
+    background: #2c3e50;
+    /* padding-bottom: 60px; */
+}
+
+#footer_part h3{
+    font-family: 'Roboto', sans-serif; 
+    font-weight: 700;
+    font-size: 25px;
+    color: #1dd2af;
+    margin-top: 60px ;
+    margin-bottom: 20px ;
+}
+
+#footer_part .news_letter p{
+    font-family: 'Roboto', sans-serif; 
+    font-weight: 400;
+    font-size: 13px;
+    color:#fff;
+    padding-bottom: 15px;
+}
+
+#footer_part .latest_news .img{
+    display: flex;
+}
+
+#footer_part .news_letter .go a{
+    padding: 10px;
+    background: #1dd2af;
+}
+
+#footer_part .news_letter .subscribe{
+    width: 200px;
+    height: 40px;
+    font-family: 'Roboto', sans-serif; 
+    font-weight: 500;
+    font-size: 20px;
+    color: #516272;
+}
+
+#footer_part .latest_news .img {
+    margin-bottom: 10px;
+}
+
+#footer_part .latest_news .img img{
+    height: 100%;
+    border: 1px solid red;
+    margin-top: 10px;
+    padding: 5px;
+    margin-right: 20px;
+}
+
+#footer_part .latest_news p{
+    font-family: 'Roboto', sans-serif; 
+    font-weight: 400;
+    font-size: 15px;
+    color: #fff;
+}
+
+#footer_part .latest_news span{
+    font-family: 'Roboto', sans-serif; 
+    font-weight: 300;
+    font-size: 13px;
+    color: #1dd2af;
+}
+
+#footer_part .tags .option{
+    display: flex;
+    justify-content: space-around;
+}
+
+#footer_part .tags .option p{
+    border: 1px solid #fff;
+    padding: 5px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    font-family: 'Roboto', sans-serif; 
+    font-weight: 200;
+    font-size: 12px;
+    color: #fff;
+}
+
+#footer_part .address{
+    margin-left: 20px;
+}
+
+#footer_part .address p{
+    font-family: 'Roboto', sans-serif; 
+    font-weight: 400;
+    font-size: 13px;
+    color: #fff;
+}
+
+#footer_part .address a{
+    font-family: 'Roboto', sans-serif; 
+    font-weight: 400;
+    font-size: 13px;
+    color: #fff;
+}
+
+#footer_part .address .icon{
+    padding-top: 20px;
+}
+
+#footer_part .address .icon i{
+    color: #fff;
+    font-size: 20px;
+    margin-right: 20px;
+}
+
+#footer_part .footer_bottom{
+    margin-top:  50px;
+    padding-top: 40px;
+    border-top: 1px solid #fff;
+    text-align: center;
+}
+
+#footer_part .footer_bottom ul li{
+    display: inline-block;
+    margin: 0 10px;
+    font-family: 'Roboto', sans-serif; 
+    font-weight: 400;
+    font-size: 15px;
+    color: #fff;
+    transition: .4s;
+}
+
+#footer_part .footer_bottom ul li:hover{
+    color: #1dd2af;
+}
+
+#footer_part .footer_bottom p{
+    font-family: 'Roboto', sans-serif; 
+    font-weight: 400;
+    font-size: 13px;
+    color: #87969d;
+}
+
+#footer_part .footer_bottom .arrow{
+    text-align: center;
+    margin-top: 30px;
+}
+
+#footer_part .footer_bottom .arrow i{
+    clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+    background: #1dd2af;
+    padding: 40px 40px 20px 40px;
+    color: #fff;
+    font-size: 30px;
+}
+
+
+
+/* --======================================
+            footer-part css end
+=======================================----*/

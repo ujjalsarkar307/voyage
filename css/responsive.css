@@ -1,0 +1,689 @@
+
+@media (min-width:320px) and (max-width:575px){
+
+    #header_top .left_part {
+        display: block !important;
+        text-align: center;
+        margin-left: 33px;
+    }
+
+    #header_top .left_part p{
+        display: inline-block;
+        text-align: center;
+        
+    }
+
+
+    #header_top .left_part p::after {
+        position: absolute;
+        top: -9px;
+        right: -20px;
+        background: #000;
+        width: 1px;
+        height: 40px;
+        content: "";
+        display: none;
+    }
+
+
+    #header_top .d_flex {
+        display: block;
+        justify-content: space-between;
+    }
+
+    
+    #header_top  .right_part i:after{
+        content: "";
+        position: absolute;
+        top: -9px;
+        left: -20px;
+        width: 1px;
+        height: 40px;
+        background: #000;
+        display: none;
+    }
+
+    #header_top .right_part {
+        margin-left: 72px;
+        margin-top: 20px;
+    }
+
+    #header_top  .right_part i{
+        margin-left: 10px;
+        color: #fff;
+        font-size: 20px;
+        position: relative;
+    }
+
+
+/* --===========banner-part start==================-- */
+
+
+#banner_part .overlay {
+	width: 100%;
+	height: 100%;
+	background: rgba(0, 0, 0, 0.4);
+	padding-top: 138px;
+	padding-bottom: 137px;
+}
+
+#banner_part .overlay h1 {
+	font-family: 'Roboto', sans-serif;
+	font-weight: 700;
+	font-size: 26px;
+	color: #fff;
+	text-transform: uppercase;
+}
+
+#banner_part .overlay h3 {
+	font-family: 'Roboto', sans-serif;
+	font-weight: 400;
+	font-size: 18px;
+	color: #fff;
+	text-transform: capitalize;
+	padding-top: 25px;
+}
+
+#banner_part .overlay .button{
+    margin-left: 20px;
+}
+
+#banner_part .overlay .button a {
+	display: inline-block;
+	padding: 18px 6px;
+	color: #fff;
+	background: transparent;
+	border: 1px solid #fff;
+	text-transform: uppercase;
+	margin-right: 10px;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 400;
+	font-size: 15px;
+	transition: .4s;
+}
+
+
+#banner_part .slick-dots{
+    position: absolute;
+    bottom: 30px;
+    left: 46%;
+    transform: translate(-50%);
+}
+
+
+#banner_part .slick-dots li{
+    display: inline-block;
+    margin: 0 7px;
+}
+
+#banner_part .slick-dots li button{
+    font-size: 0;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background: transparent;
+    border: 1px solid #1dd2af;
+}
+
+#banner_part .slick-dots .slick-active button{
+    background: #1dd2af;
+    border: 2px solid #fff;
+}
+
+/* --===========banner-part end==================-- */
+
+
+
+/* --================holiday-part start=================-- */
+
+#holiday_part .holiday .find_holiday::after {
+	/* position: absolute;
+	top: -31px;
+	right: -30px;
+	width: 2px;
+	height: 200%;
+	background: #516272;
+	content: ""; */
+	display: none;
+}
+
+
+#holiday_part .holiday {
+	display: block;
+	justify-content: space-between;
+}
+
+#holiday_part .find_holiday{
+    text-align: center;
+}
+
+#holiday_part .where{
+    margin-bottom: 20px;
+}
+
+/* --================holiday-part end=================-- */
+
+
+
+/* --================specal offer-part start=================-- */
+
+
+#offers_Part .prev{
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+    border-radius: 50%;
+    background: transparent;
+    border: 1px solid #1dd2af;
+    position: absolute;
+    bottom: -20px;color:#1dd2af;
+    left: 35%;transform: translate(-50%);
+    transition: .4s;
+}
+
+#offers_Part .prev:hover{
+    border: 1px solid #1dd2af;
+    background: #1dd2af;
+    color: #fff;
+}
+
+
+#offers_Part .next{
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+    border-radius: 50%;
+    background: transparent;
+    border: 1px solid #1dd2af;
+    position: absolute;
+    bottom: -20px;color:#1dd2af;
+    right: 35%;transform: translate(-50%);
+    transition: .4s;
+}
+
+#offers_Part .next:hover{
+    border: 1px solid #1dd2af;
+    background: #1dd2af;
+    color: #fff;
+}
+
+
+/* --================specal offer-part end=================-- */
+
+
+
+
+
+    /* ------last-line-------- */
+}
+
+@media (min-width:576px) and (max-width:767px){
+
+    #header_top .left_part {
+        display: block !important;
+        text-align: center;
+       
+    }
+
+    #header_top .left_part p{
+        display: inline-block;
+        text-align: center;
+        
+    }
+
+
+    #header_top .left_part p::after {
+        position: absolute;
+        top: -9px;
+        right: -20px;
+        background: #000;
+        width: 1px;
+        height: 40px;
+        content: "";
+        display: none;
+    }
+
+
+    #header_top .d_flex {
+        display: block;
+        justify-content: space-between;
+    }
+
+    
+    #header_top  .right_part i:after{
+        content: "";
+        position: absolute;
+        top: -9px;
+        left: -20px;
+        width: 1px;
+        height: 40px;
+        background: #000;
+        display: none;
+    }
+
+    #header_top .right_part {
+        text-align: center;
+        margin-right: 66px;
+        margin-top: 20px;
+    }
+
+    #header_top  .right_part i{
+        margin-left: 10px;
+        color: #fff;
+        font-size: 20px;
+        position: relative;
+    }
+
+    .main_menu .navbar-toggler{
+        border: 0;
+        outline: 0;
+        box-shadow: none;
+    }
+
+/* --===========banner-part start==================-- */
+
+
+#banner_part .overlay {
+	width: 100%;
+	height: 100%;
+	background: rgba(0, 0, 0, 0.4);
+	padding-top: 138px;
+	padding-bottom: 137px;
+}
+
+#banner_part .overlay h1 {
+	font-family: 'Roboto', sans-serif;
+	font-weight: 700;
+	font-size: 26px;
+	color: #fff;
+	text-transform: uppercase;
+}
+
+#banner_part .overlay h3 {
+	font-family: 'Roboto', sans-serif;
+	font-weight: 400;
+	font-size: 18px;
+	color: #fff;
+	text-transform: capitalize;
+	padding-top: 25px;
+}
+
+#banner_part .overlay .button{
+    margin-left: 20px;
+}
+
+#banner_part .overlay .button a {
+	display: inline-block;
+	padding: 18px 6px;
+	color: #fff;
+	background: transparent;
+	border: 1px solid #fff;
+	text-transform: uppercase;
+	margin-right: 10px;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 400;
+	font-size: 15px;
+	transition: .4s;
+}
+
+
+#banner_part .slick-dots{
+    position: absolute;
+    bottom: 30px;
+    left: 46%;
+    transform: translate(-50%);
+}
+
+
+#banner_part .slick-dots li{
+    display: inline-block;
+    margin: 0 7px;
+}
+
+#banner_part .slick-dots li button{
+    font-size: 0;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background: transparent;
+    border: 1px solid #1dd2af;
+}
+
+#banner_part .slick-dots .slick-active button{
+    background: #1dd2af;
+    border: 2px solid #fff;
+}
+
+/* --===========banner-part end==================-- */
+
+
+
+/* --================holiday-part start=================-- */
+
+#holiday_part .holiday .find_holiday::after {
+	/* position: absolute;
+	top: -31px;
+	right: -30px;
+	width: 2px;
+	height: 200%;
+	background: #516272;
+	content: ""; */
+	display: none;
+}
+
+
+#holiday_part .holiday {
+	display: block;
+	justify-content: space-between;
+}
+
+#holiday_part .find_holiday{
+    text-align: center;
+}
+
+#holiday_part .where{
+    margin-bottom: 20px;
+}
+
+
+#holiday_part  .search_button{
+    text-align: center;
+    text-align: center;
+    margin-top: 13px;
+    margin-right: 23px;
+
+}
+
+/* --================holiday-part end=================-- */
+
+
+
+/* --================specal offer-part start=================-- */
+
+
+#offers_Part .prev{
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+    border-radius: 50%;
+    background: transparent;
+    border: 1px solid #1dd2af;
+    position: absolute;
+    bottom: -20px;color:#1dd2af;
+    left: 35%;transform: translate(-50%);
+    transition: .4s;
+}
+
+#offers_Part .prev:hover{
+    border: 1px solid #1dd2af;
+    background: #1dd2af;
+    color: #fff;
+}
+
+
+#offers_Part .next{
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+    border-radius: 50%;
+    background: transparent;
+    border: 1px solid #1dd2af;
+    position: absolute;
+    bottom: -20px;color:#1dd2af;
+    right: 35%;transform: translate(-50%);
+    transition: .4s;
+}
+
+#offers_Part .next:hover{
+    border: 1px solid #1dd2af;
+    background: #1dd2af;
+    color: #fff;
+}
+
+
+/* --================specal offer-part end=================-- */
+
+
+
+
+
+    /* ------last-line-------- */
+}
+
+@media (min-width:768px) and (max-width:991px){
+
+    #header_top .left_part {
+        display: block !important;
+        text-align: center;
+       
+    }
+
+    #header_top .left_part p{
+        display: inline-block;
+        text-align: center;
+        
+    }
+
+
+    #header_top .left_part p::after {
+        position: absolute;
+        top: -9px;
+        right: -20px;
+        background: #000;
+        width: 1px;
+        height: 40px;
+        content: "";
+        display: none;
+    }
+
+
+    #header_top .d_flex {
+        display: block;
+        justify-content: space-between;
+    }
+
+    
+    #header_top  .right_part i:after{
+        content: "";
+        position: absolute;
+        top: -9px;
+        left: -20px;
+        width: 1px;
+        height: 40px;
+        background: #000;
+        display: none;
+    }
+
+    #header_top .right_part {
+        text-align: center;
+        margin-right: 66px;
+        margin-top: 20px;
+    }
+
+    #header_top  .right_part i{
+        margin-left: 10px;
+        color: #fff;
+        font-size: 20px;
+        position: relative;
+    }
+
+    .main_menu .navbar-toggler{
+        border: 0;
+        outline: 0;
+        box-shadow: none;
+    }
+
+/* --===========banner-part start==================-- */
+
+
+#banner_part .overlay {
+	width: 100%;
+	height: 100%;
+	background: rgba(0, 0, 0, 0.4);
+	padding-top: 138px;
+	padding-bottom: 137px;
+}
+
+#banner_part .overlay h1 {
+	font-family: 'Roboto', sans-serif;
+	font-weight: 700;
+	font-size: 26px;
+	color: #fff;
+	text-transform: uppercase;
+}
+
+#banner_part .overlay h3 {
+	font-family: 'Roboto', sans-serif;
+	font-weight: 400;
+	font-size: 18px;
+	color: #fff;
+	text-transform: capitalize;
+	padding-top: 25px;
+}
+
+#banner_part .overlay .button{
+    margin-left: 20px;
+}
+
+#banner_part .overlay .button a {
+	display: inline-block;
+	padding: 18px 6px;
+	color: #fff;
+	background: transparent;
+	border: 1px solid #fff;
+	text-transform: uppercase;
+	margin-right: 10px;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 400;
+	font-size: 15px;
+	transition: .4s;
+}
+
+
+#banner_part .slick-dots{
+    position: absolute;
+    bottom: 30px;
+    left: 46%;
+    transform: translate(-50%);
+}
+
+
+#banner_part .slick-dots li{
+    display: inline-block;
+    margin: 0 7px;
+}
+
+#banner_part .slick-dots li button{
+    font-size: 0;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background: transparent;
+    border: 1px solid #1dd2af;
+}
+
+#banner_part .slick-dots .slick-active button{
+    background: #1dd2af;
+    border: 2px solid #fff;
+}
+
+/* --===========banner-part end==================-- */
+
+
+
+/* --================holiday-part start=================-- */
+
+#holiday_part .holiday .find_holiday::after {
+	/* position: absolute;
+	top: -31px;
+	right: -30px;
+	width: 2px;
+	height: 200%;
+	background: #516272;
+	content: ""; */
+	display: none;
+}
+
+
+#holiday_part .holiday {
+    text-align: center;
+	display: block;
+	justify-content: space-between;
+}
+
+#holiday_part .find_holiday{
+    margin-left: 57px;
+    margin-bottom: 20px;
+}
+
+#holiday_part .where{
+    margin-bottom: 20px;
+}
+
+
+#holiday_part .search_button {
+	margin-top: 13px;
+	margin-right: -64px;
+}
+
+/* --================holiday-part end=================-- */
+
+
+
+/* --================specal offer-part start=================-- */
+
+
+#offers_Part .prev{
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+    border-radius: 50%;
+    background: transparent;
+    border: 1px solid #1dd2af;
+    position: absolute;
+    bottom: -20px;color:#1dd2af;
+    left: 35%;transform: translate(-50%);
+    transition: .4s;
+}
+
+#offers_Part .prev:hover{
+    border: 1px solid #1dd2af;
+    background: #1dd2af;
+    color: #fff;
+}
+
+
+#offers_Part .next{
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+    border-radius: 50%;
+    background: transparent;
+    border: 1px solid #1dd2af;
+    position: absolute;
+    bottom: -20px;color:#1dd2af;
+    right: 35%;transform: translate(-50%);
+    transition: .4s;
+}
+
+#offers_Part .next:hover{
+    border: 1px solid #1dd2af;
+    background: #1dd2af;
+    color: #fff;
+}
+
+
+/* --================specal offer-part end=================-- */
+
+
+
+
+
+    /* ------last-line-------- */
+}
